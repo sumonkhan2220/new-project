@@ -14,6 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('master.index');
 });
+
+
+Route::get('/', function () {
+    return view('pages.dashboard');
+})->name('pages.dashboard');
+
+Route::get('/sumon', function () {
+    return view('pages.sumon');
+})->name('sumon.page');
+
+
+Route::get('/card', function () {
+    return view('pages.card');
+})->name('card.page');
 
