@@ -22,12 +22,16 @@ Route::get('/', function () {
     return view('pages.dashboard');
 })->name('pages.dashboard');
 
-Route::get('/sumon', function () {
-    return view('pages.sumon');
-})->name('sumon.page');
+Route::get('/registrationPersonList', function () {
+    return view('pages.registrationPersonList');
+})->name('registrationPersonList.page');
 
 
-Route::get('/card', function () {
-    return view('pages.card');
-})->name('card.page');
+Route::get('/committeeList', function () {
+    return view('pages.committeeList');
+})->name('committeeList.page');
+
+Route::get('/committeeFlowchart', function () {
+    return view('pages.committeeFlowchart');
+})->name('committeeFlowchart.page');
 

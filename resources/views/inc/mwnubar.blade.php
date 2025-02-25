@@ -8,35 +8,78 @@
             </li>
 
             <li class="has-submenu">
-                <a href="#">Home
-                </a>
+                <a href="#">Member Structure</a>
                 <ul class="submenu">
-                    <li><a href="{{route('sumon.page')}}">Membor List</a></li>
-                    <li><a href="{{route('card.page')}}">Cards</a></li>
-                    <li><a href="ui-buttons.html">Buttons</a></li>
-                    <li><a href="ui-modals.html">Modals</a></li>
-                    <li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
-                    <li><a href="ui-tabs.html">Tabs</a></li>
-                    <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                    <li><a href="ui-notifications.html">Notification</a></li>
-                    <li><a href="ui-grid.html">Grid</a></li>
-                    <li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
-                    <li><a href="ui-bootstrap.html">Bootstrap UI</a></li>
+                    <li><a href="{{route('registrationPersonList.page')}}">Registration Person List</a></li>
+                    <li><a href="{{route('committeeList.page')}}">Committee List</a></li>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Committee Flowchart</a></li>
                 </ul>
             </li>
 
+
             <li class="has-submenu">
-                <a href="#">About</a>
+                <a href="#">Financial List</a>
                 <ul class="submenu">
-                    <li class="has-submenu">
-                        <a href="#">Icons <div class="arrow-down"></div></a>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Yearly Commercial Cost</a></li>
+                    <li><a href="{{route('registrationPersonList.page')}}">Monthly Installment</a></li>
+                    <li><a href="{{route('committeeList.page')}}">Yearly Installment</a></li>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Expense</a></li>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Bonus</a></li>
+                </ul>
+            </li>
+
+
+            <li class="has-submenu">
+                <a href="#">Rules Regulation</a>
+                <ul class="submenu">
+                    <li><a href="{{route('registrationPersonList.page')}}">Installment Rules</a></li>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Structural</a></li>
+                </ul>
+            </li>
+
+
+            <li class="has-submenu">
+                <a href="#">Festival Gallery</a>
+                <ul class="submenu">
+                    <li><a href="{{route('committeeFlowchart.page')}}">Festival Blog</a></li>
+                    <li><a href="{{route('registrationPersonList.page')}}">Slider</a></li>
+                </ul>
+            </li>
+
+
+            <li class="has-submenu">
+                <a href="#">Notice</a>
+                <ul class="submenu">
+                    <li><a href="{{route('committeeFlowchart.page')}}">Global Notice</a></li>
+                    <li><a href="{{route('registrationPersonList.page')}}">User Notice</a></li>
+                </ul>
+            </li>
+
+
+            <li class="has-submenu">
+                <a href="{{route('committeeFlowchart.page')}}">Setting</a>
+            </li>
+
+            <li class="has-submenu">
+                <a href="#">Report</a>
+                <ul class="submenu">
+                    <li><a href="{{route('registrationPersonList.page')}}">Gross Balance Report</a></li>
+                    <li><a href="{{route('committeeFlowchart.page')}}">Installment Report</a></li>
+                    <li><a href="{{route('registrationPersonList.page')}}">Expense Report</a></li>
+                </ul>
+            </li>
+
+            {{-- <li class="has-submenu">
+                <a href="#">ABC</a>
+                <ul class="submenu">
                         <ul class="submenu">
+                            <li><a href="#">Icons</a></li>
                             <li><a href="icons-materialdesign.html">Material Design</a></li>
                             <li><a href="icons-dripicons.html">Dripicons</a></li>
                             <li><a href="icons-fontawesome.html">Font awesome</a></li>
                             <li><a href="icons-feather.html">Feather Icons</a></li>
                         </ul>
-                    </li>
+                   
 
                     <li class="has-submenu">
                         <a href="#">Forms <div class="arrow-down"></div></a>
@@ -89,10 +132,10 @@
                     </li>
 
                 </ul>
-            </li>
+            </li> --}}
 
 
-            <li class="has-submenu">
+            {{-- <li class="has-submenu">
                 <a href="#">Email
                 </a>
                 <ul class="submenu">
@@ -138,7 +181,7 @@
                     <li><a href="extras-pricing.html">Pricing</a></li>
                     <li><a href="extras-email-template.html">Email Templates</a></li>
                 </ul>
-            </li>
+            </li> --}}
 
         </ul>
         <!-- End navigation menu -->

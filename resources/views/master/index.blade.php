@@ -19,7 +19,7 @@
         <link href="{{asset('assets/css/header.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
-        {{-- @stack('style') --}}
+        
     <body>
 
         <!-- Navigation Bar-->
@@ -137,12 +137,24 @@
 
         <!-- Init js -->
         <script src="{{asset('assets/js/pages/dashboard.init.js')}}"></script>
-  
 
         <!-- App js -->
         <script src="{{asset('assets/js/app.min.js')}}"></script>
-        
+
+         <!-- Vendor js -->
+         <script src="{{asset('assets/js/vendor.min.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.time.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.tooltip.min.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.resize.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.pie.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.selection.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.stack.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.orderBars.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.crosshair.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/curvedLines.js')}}"></script>
+         <script src="{{asset('assets/libs/flot-charts/jquery.flot.axislabels.js')}}"></script>
+         <script src="{{asset('assets/js/pages/flot.init.js')}}"></script>
     </body>
 
-<!-- Mirrored from coderthemes.com/abstack/layouts/gradient-horizontal/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 04:01:09 GMT -->
 </html>
